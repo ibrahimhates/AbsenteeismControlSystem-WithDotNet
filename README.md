@@ -7,12 +7,14 @@ Devamsızlık kontrol sistemi; Ders ekleyen, devamsızlık ekleyen, sınav tarih
 
 
 ----------------------------------------------------------------------------------------------------------------------------
+AbsenteeismControlSystem-WithDotNet
+
 #Kullanmak-İçin 
 
-Web-Api-Training-WithDotNet Projeyi calistirmadan once WebApi katmani altinda appsettings.json dosyasi icersinde ConnectionString/sqlConnection alanini asagida da oldugu gibi kendi sql connection stringinizi giriniz.
+Projeyi calistirmadan once AcsApi katmani altinda appsettings.json dosyasi icersinde ConnectionString/sqlConnection alanini asagida da oldugu gibi kendi sql connection stringinizi giriniz.
+"sqlConnection": "Your_Connection_String"
 
 #For-Use
 
-"sqlConnection": "Your_Connection_String" Before running the project, in the appsettings.json file under the WebApi layer In the ConnectionString/sqlConnection field, enter your own sql connection string as below.
+"sqlConnection": "Your_Connection_String" Before running the project, in the appsettings.json file under the AcsApi layer In the ConnectionString/sqlConnection field, enter your own sql connection string as below.
 
-"sqlConnection": "Your_Connection_String"
